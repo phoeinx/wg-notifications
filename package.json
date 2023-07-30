@@ -1,0 +1,26 @@
+{
+  "name": "ekol-tnv-notifications",
+  "version": "0.1.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tillprochaska/ekol-tnv-notifications.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tillprochaska/ekol-tnv-notifications/issues"
+  },
+  "homepage": "https://github.com/tillprochaska/ekol-tnv-notifications#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "node-fetch": "^3.0.0",
+    "playwright-chromium": "^1.16.0",
+    "yaml": "^1.10.2"
+  }
+}
