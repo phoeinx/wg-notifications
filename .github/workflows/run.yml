@@ -1,4 +1,4 @@
-name: Check available appointments
+name: Check for new flat share offers
 on:
   workflow_dispatch: {}
   schedule:
