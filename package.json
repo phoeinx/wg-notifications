@@ -1,5 +1,5 @@
 {
-  "name": "ekol-tnv-notifications",
+  "name": "flat-share-notifications",
   "version": "0.1.0",
   "description": "",
   "type": "module",
@@ -9,18 +9,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tillprochaska/ekol-tnv-notifications.git"
+    "url": "git+https://github.com/phoeinx/wg-notifications"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/tillprochaska/ekol-tnv-notifications/issues"
+    "url": "https://github.com/phoeinx/wg-notifications/issues"
   },
-  "homepage": "https://github.com/tillprochaska/ekol-tnv-notifications#readme",
+  "homepage": "https://github.com/phoeinx/wg-notifications#readme",
   "dependencies": {
     "dotenv": "^10.0.0",
     "node-fetch": "^3.0.0",
-    "playwright-chromium": "^1.16.0",
+    "playwright-chromium": "^1.27.0",
     "yaml": "^1.10.2"
   }
 }
