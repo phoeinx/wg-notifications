@@ -4,3 +4,6 @@ url: https://www.wg-gesucht.de
 
 town: Potsdam
 type: WG-Zimmer
+
+# include offers from the last x minutes (only goes up to 60 minutes)
+minutes: 15
