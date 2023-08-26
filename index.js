@@ -15,7 +15,7 @@ if (!config.url || !config.type || !config.town || !config.minutes) {
 }
 
 if (config.minutes < 1 || config.minutes > 60) {
-  console.log('Please make sure to provide valid minutes in config file.');
+  console.log('Please make sure to provide a valid amount of minutes in config file.');
   process.exit(1);
 }
 
@@ -42,9 +42,9 @@ if (config.minutes < 1 || config.minutes > 60) {
   await page.getByRole('button', { name: 'Finden' }).click();
 
   
-  //Dummy selector to wait for page to load
-  await page.waitForSelector('#partners_wrapper');
-  // TODO: check for right title
+  //The sort by 'Eintragsdatum' drop-down is very likely to consistently only appear after the first search
+  //Still, a bit of a hack. TODO: Improve for more robustness.
+  await page.waitForSelector('text=Eintragsdatum');
 
   let offerDivs = await page.locator('div[data-id]').all();
   let offers = await Promise.all(
